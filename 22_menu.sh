@@ -4,7 +4,13 @@
 
 opcion=0
 
-while:
+#Las funciones se ponen en el conienzo del script
+funcion_numero_1 () {
+    echo "La primera opcion"
+    sleep 3
+}
+
+while :
 do
     #Limpiar la pantalla
     clean
@@ -21,4 +27,26 @@ do
 
     #Leer los datos del usuario
     read -n1 -p "Ingrese una opcion [1-5]: " opcion
-    case 
+    case $opcion in
+        1) 
+            funcion_numero_1
+            ;;
+
+        2)
+            echo "La segunda opcion"
+            sleep 3
+            ;;
+        3)
+            echo "La tercera opcion"
+            sleep 3
+            ;;
+        4)
+            echo "La cuarta opcion"
+            sleep 3
+            ;;
+        5)
+            echo "salir"
+            exit 0
+            ;;
+    esac
+done

@@ -5,6 +5,8 @@
 #  $1 al $[10]	El numero del argumento, si son mas de un digito se usan las llaves.
 #  	$ #	Contador de argumento.
 #	$ *	Refiere a todos los argumentos.
+# Estos parametros se pasan en el momento de hacer la ejecucion 
+# ejm: ./05_argumentos.sh golang 24
 
 nameCourse=$1
 hourCourse=$2

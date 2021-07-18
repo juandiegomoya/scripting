@@ -11,4 +11,4 @@ echo "what is ypur name?"
 read name
 echo "what is your age"
 read age
-echo "You are $name and yo are $age years old"
+echo "You are $name and you are $age years old"

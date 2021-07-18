@@ -9,7 +9,7 @@
 #	statement 3
 #fi
 
-# eq: is equal to // Igual a
+# -eq: is equal to // Igual a
 # -ne: is not equal to // No es igual a // !=
 # -gt: is greater than // Mayor a // >
 # -ge: is greater than or equal to // Mayor o igual a // >=
